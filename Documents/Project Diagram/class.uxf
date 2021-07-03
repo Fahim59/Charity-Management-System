@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>91</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Donor
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>259</x>
+      <y>91</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Fund
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>91</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Transection
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>238</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Login
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>259</x>
+      <y>238</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Financial Manager
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>385</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Employee
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>637</x>
+      <y>385</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Applicant
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>497</x>
+      <y>133</y>
+      <w>21</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>252</y>
+      <w>98</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>497</x>
+      <y>280</y>
+      <w>21</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>553</x>
+      <y>392</y>
+      <w>98</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=0..*
+Verify &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>133</y>
+      <w>70</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..*
+Manage ^</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>217</x>
+      <y>105</y>
+      <w>532</w>
+      <h>392</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+&lt; Receive</panel_attributes>
+    <additional_attributes>720.0;470.0;720.0;540.0;10.0;540.0;10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>280</y>
+      <w>385</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..*
+m2=1
+Give money &gt;</panel_attributes>
+    <additional_attributes>510.0;220.0;510.0;250.0;10.0;250.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>98</y>
+      <w>98</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=1..*
+&lt; Donate</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>133</y>
+      <w>448</w>
+      <h>238</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..*
+Update ^</panel_attributes>
+    <additional_attributes>10.0;220.0;10.0;320.0;560.0;320.0;560.0;10.0;560.0;320.0;560.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>826</x>
+      <y>210</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Registered
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>826</x>
+      <y>287</y>
+      <w>112</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Unregistered
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>749</x>
+      <y>224</y>
+      <w>91</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>60.0;120.0;60.0;70.0;10.0;70.0;60.0;70.0;60.0;120.0;60.0;10.0;60.0;120.0;110.0;120.0;110.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>497</x>
+      <y>35</y>
+      <w>273</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0;370.0;10.0;370.0;340.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>742</x>
+      <y>105</y>
+      <w>196</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+Check ^</panel_attributes>
+    <additional_attributes>200.0;150.0;200.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
