@@ -1,3 +1,12 @@
 # Charity-Management-System
 Full documentation containing-
-Project Management Plan, Test Cases, Requirements, Demo website, Other documentations
+--> Background analysis
+--> Literature review
+--> Conceptual framework
+--> Project Management plan
+--> Requirement analysis
+--> UML diagrams
+--> Lifecycle analysis
+--> Test cases
+--> Demo prototype
+                  Live Link: https://fahim59.github.io/Charity-Management-System/
