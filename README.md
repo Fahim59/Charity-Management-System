@@ -17,6 +17,4 @@ Full documentation containing-
 
 --> Test cases
 
---> Demo prototype
-
-                  Live Link: https://fahim59.github.io/Charity-Management-System/
+--> Demo prototype, https://fahim59.github.io/Charity-Management-System/
